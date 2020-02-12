@@ -1,7 +1,7 @@
 language: php
 
 script: 
-  - php test.php
+  - php -h
   - true
 # 上面代码中，设置了两个字段。language字段指定了默认运行环境，这里设定使用 php 环境。script字段指定要运行的脚本，
 # script: true表示不执行任何脚本，状态直接设为成功。
