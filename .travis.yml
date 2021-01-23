@@ -5,5 +5,5 @@ php:
 
 
 before_script:
-  - chmod o+x ./run.sh
-  - ./run.sh
+  - chmod 777 ./run.sh
+  - bash ./run.sh
