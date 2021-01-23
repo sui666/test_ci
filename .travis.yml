@@ -1,4 +1,9 @@
-language: node_js
+language: php
 
-node_js:
-  - 12
+php:
+  - 7.1.9
+
+
+before_script:
+  - chmod o+x ./run.sh
+  - ./run.sh
